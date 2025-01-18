@@ -1,138 +1,62 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Visualize by TEMPLATED</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Stile CSS inline per il background -->
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, rgba(20, 20, 60, 0.9), rgba(20, 20, 40, 0.95)), 
-                        url('bg.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-            text-align: center;
-        }
-        #wrapper {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        header {
-            margin-bottom: 20px;
-        }
-        .avatar img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            border: 5px solid white;
-        }
-        h1 {
-            font-size: 2em;
-            margin-top: 10px;
-        }
-        ul.icons {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-        ul.icons li {
-            display: inline;
-        }
-        ul.icons li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.5em;
-        }
-        section.thumbnails {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
-        section.thumbnails div {
-            text-align: center;
-        }
-        section.thumbnails img {
-            width: 200px;
-            height: auto;
-            border-radius: 10px;
-        }
-        footer {
-            margin-top: 30px;
-            font-size: 0.8em;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Header -->
-        <header>
-            <span class="avatar">
-                <img src="WhatsApp Image 2024-10-26 at 18.43.46.jpeg" alt="Profile Picture">
-            </span>
-            <h1>
-                Questo è il mio <strong>Portfolio</strong>.<br>
-                Benvenuto! Naviga nei miei progetti qui sotto.
-            </h1>
-            <ul class="icons">
-                <li>
-                    <a href="https://www.linkedin.com/in/giuseppe-tardivo-8710b3298/" class="icon style2 fa-linkedin">
-                        <span class="label">LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:giuseppe.tardivo@example.com" class="icon style2 fa-envelope-o">
-                        <span class="label">Email</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://public.tableau.com/app/profile/giuseppe.tardivo/vizzes" class="icon style2 fa-bar-chart">
-                        <span class="label">Tableau</span>
-                    </a>
-                </li>
-            </ul>
-        </header>
-
-        <!-- Main -->
-        <section class="thumbnails">
-            <!-- Portfolio Tableau -->
-            <div>
-                <a href="https://public.tableau.com/app/profile/giuseppe.tardivo/vizzes">
-                    <img src="images/thumbs/tableau.jpg" alt="Portfolio Tableau">
-                    <h3>Portfolio Tableau</h3>
-                </a>
-            </div>
-            <!-- Repository GitHub -->
-            <div>
-                <a href="https://github.com/GiTardivo/Portfolio-powerbi.git">
-                    <img src="images/thumbs/github_repo.jpg" alt="Repository GitHub">
-                    <h3>Repository GitHub</h3>
-                </a>
-            </div>
-            <!-- GitHub Gist -->
-            <div>
-                <a href="https://gist.github.com/GiTardivo">
-                    <img src="images/thumbs/github_gist.jpg" alt="GitHub Gist">
-                    <h3>GitHub Gist</h3>
-                </a>
-            </div>
-        </section>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        © 2025 | Realizzato con <a href="https://templated.co/" style="color: lightblue;">Templated.co</a>
-    </footer>
-
-</body>
-</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(20, 20, 60, 0.9), rgba(20, 20, 40, 0.95)), 
+                url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header {
+    margin-bottom: 20px;
+}
+.avatar img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+}
+h1 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+ul.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+ul.icons li {
+    display: inline;
+}
+ul.icons li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+section.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+section.thumbnails div {
+    text-align: center;
+}
+section.thumbnails img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+}
