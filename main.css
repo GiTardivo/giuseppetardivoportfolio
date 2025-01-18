@@ -1,12 +1,15 @@
+/* Impostazioni generali */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, rgba(20, 20, 60, 0.5), rgba(20, 20, 40, 0.5)), 
+    background: linear-gradient(to bottom, rgba(20, 20, 60, 0.9), rgba(20, 20, 40, 0.95)),
                 url('bg.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     text-align: center;
 }
+
+/* Wrapper */
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -14,6 +17,8 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+/* Header */
 header {
     margin-bottom: 20px;
 }
@@ -27,6 +32,8 @@ h1 {
     font-size: 2em;
     margin-top: 10px;
 }
+
+/* Icone Social */
 ul.icons {
     list-style: none;
     padding: 0;
@@ -34,30 +41,50 @@ ul.icons {
     justify-content: center;
     gap: 15px;
 }
-ul.icons li {
-    display: inline;
-}
 ul.icons li a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.3s;
 }
+ul.icons li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+/* Sezione Thumbnails */
 section.thumbnails {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
 }
-section.thumbnails div {
-    text-align: center;
+section.thumbnails .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
 }
-section.thumbnails img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
+section.thumbnails .button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
 }
+
+/* Footer */
 footer {
     margin-top: 30px;
     font-size: 0.8em;
 }
-
