@@ -27,6 +27,8 @@ header {
     width: 150px;
     height: 150px;
     border: 5px solid white;
+    object-fit: cover; /* Mantiene la proporzione senza distorsioni */
+    object-position: center; /* Centra l'immagine */
 }
 h1 {
     font-size: 2em;
@@ -88,4 +90,5 @@ footer {
     margin-top: 30px;
     font-size: 0.8em;
 }
+
 
